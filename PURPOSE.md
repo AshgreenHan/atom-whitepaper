@@ -1,133 +1,32 @@
-We believe in the power of cryptocurrency blockchains to provide a public good,
-powered by a collection of self-motivated actors governed by the rules of a
-shared consensus ledger, in an environment of competition and freedom of choice.
-We have learned important lessons from the successes and failures of prior
-cryptocurrencies,  and have been creating innovations of our own that will
-unleash a new era of speed, security, scalability, and usability.
+우리는 블록체인이 공동의 합의원장 규칙 안에서 자발적으로 모인 경쟁과 선택의 자유를 가진 개인들을 통해 공공의 이익을 일구어낼 수 있다고 믿습니다. 이전 암호화폐들의 성공과 실패에서 중요한 교훈을 얻었으며, 이를 바탕으로 우리만의 혁신을 일궈냈습니다. 속도, 보안성, 확장성 그리고 사용성 모두를 확보한 새로운 시대를 열 것입니다.
 
-Cosmos is a culmination of these lessons and innovations, designed to be
-extended to incorporate even future innovations, to create a cryptocurrency
-platform suitable for generations to come.
+코스모스(Cosmos)는 그러한 배움과 혁신들의 정점이며, 미래에 다가올 혁신까지도 자유로이 수용할 수 있는 암호화폐 플랫폼입니다. 
 
 <hr />
 
-One of the great tragedies of cryptocurrencies has been their failure to
-interoperate with existing systems, and even with eachother.  It is as if each
-currency, on its own blockchain and with its own community, were too sovereign
-for its own good.  This is made most apparent when you attempt to buy your first
-Bitcoin: you discover that it is remarkably difficult to buy the new internet
-money over the internet, at least without divulging considerable amounts of
-personal information and allowing weeks for it to be verified by third parties
-(exchanges) you hardly know and have been warned not to trust with too much of
-your money.	
+현재 암호화폐의 가장 큰 비극 중 하나는 암호화폐가 기존 시스템과 상호운용이 불가능하며, 심지어 암호화폐들 자체 간에도 상호운용이 어렵다는 점이다. 각 화폐는 자체 블록체인과 자체 커뮤니티를 가지고 각자도생하며 지나치게 독립적이다. 이 문제는 비트코인 첫 구매 시부터 확연히 드러난다: 인터넷 화폐를 인터넷을 통해 구입하는 것이 너무나 어려우며, 엄청난 양의 정보를 연구해야 하고 알지도 못하는 제 3자인 거래소에서 거래를 승인받고 거래가 완료되기까지는 몇 주가 걸리기도 한다. 게다가 그러한 거래소는 믿을 수 없으며 많은 금액을 맡기지 않는 것이 안전하다.
 
-While mechanisms like [atomic
-swaps](https://en.bitcoin.it/wiki/Atomic_cross-chain_trading) between chains can
-help link communities, they suffer from long timeouts and a need for mature
-liquidity markets on each side.  The [altcoin
-ecosystem](https://coinmarketcap.com/) is an alchemical soup of enthusiasts
-experimenting in various ways in new cryptocurrency design, but each altcoin
-stands alone, siloed by the sovereignty of its own blockchain, many needlessly
-wasting electricty through convoluted Proof-of-Work (PoW) designs.
+블록체인 간의 Atomic Swap과 같은 기능은 각 커뮤니티를 연결해줄 수 있긴 하지만, 긴 타임아웃과 양 코인 무도가 충분한 시장 유동성이 필요하다는 한계점이 있다. 알트코인 생태계는 선구자들이 새로운 암호화폐들을 실험하는 장으로 사용되어 왔다. 하지만 각 알트코인은 독립적이며 베타적으로 자신만의 생태계에 고립되어 있고, 많은 경우 작업증명(PoW)으로 대량의 전기를 낭비한다.
 
-[Ethereum](https://ethereum.org/) sought to address the problem, somewhat
-indirectly, by inventing a new platform for computation, allowing arbitrary
-financial systems to be written against a common virtual machine using a common
-development environment.  Presuming all new cryptocurrencies launch on Ethereum,
-they will all have some capacity for interoperability.  Ethereum is a wonderful
-idea, but the design decisions, while motivated by important considerations
-(like the need for a simple specification and guaranteed determinism), neglect a
-great many more (like the difficulty of designing a secure general purpose
-programming environment), and lends Ethereum it's own sovereignty problem, which
-is that it excludes users who want access to the platform but want alternatives
-to the current state transition machine.
+이더리움(Ethereum)은 이 문제를 다양한 금융 서비스를 설계할 수 있는 플랫폼을 제공함으로써 다소 간접적인 해결책을 제시한다. 만일 모든 암호화폐가 이더리움 위에 런칭한다면 서로 상호운용이 가능할 것이다. 이더리움은 훌륭한 아이디어이고, 설계적인 부분에서 ‘단순한 스펙(simple specification)’이나 ‘결정성 보장(determinism guarantee)’과 같은 중요한 부분들을 고려했다. 하지만 상당히 많은 다른 부분들에서는 소홀함을 보인다. 예를 들어, 이더리움에서는 상용 서비스를 위한 프로그램보안을 설계하기가 까다롭다. 또한 현재 이더리움에서 자체적으로 제공하는 상태변환머신(state transition machine) 외에 다른 대안을 사용할 수 없다는 점에서 역시 고립성 문제를 지니고 있다.
 
-Of course, Ethereum doesn't address the problem of turning fiat currency into
-ether, either, short of having banks and major government bodies issue their
-currency on Ethereum.  And while
-[many](http://www.coindesk.com/south-africa-diy-ethereum-blockchain-tests/)
-[such](http://www.coindesk.com/south-africa-diy-ethereum-blockchain-tests/)
-[institutions](http://www.coindesk.com/fidor-ethereum-core-banking/) are
-investigating the Ethereum blockchain, there are both scalability and governance
-concerns that will restrict its full scale adoption, and hence impede
-integration with existing systems and currencies.
+또한 이더리움은 은행이나 정부 등의 기관이 화폐를 이더리움 위에서 발행하지 않는 한, 결국 법정화폐를 이더로 전환해서 사용해야 한다는 제약도 가진다. 여러 기관들이 이더리움 블록체인을 연구하고는 있지만(참조기사1, 참조기사2), 여전히 확장성 문제(scalability)나 거버넌스(governance, 경영)에 대한 우려가 있다. 따라서 이더리움을 그대로 기존 시스템이나 화폐에 적용하거나 통합시키기는 어렵다.
 
-Each existing cryptocurrency supports some cultural ideal.  Bitcoin is decidedly
-libertarian, with a slight anarchist leaning which is ultimately betrayed by the
-economics of Proof-of-Work.  Ethereum is less a political statement and more an
-avant garde academic excercise in distributed systems, computer science, and
-contract theory.  Dogecoin is a testament to the capacity for Humans to bond
-over the absurd, a phenomenon more commonly known as "being social".  Steem
-offers a more structured version of being social, with a basis in content
-production and curation.  And so on. But there are many more idealogical
-currencies to create, many more virtual machine designs to try, each affording a
-unique experiment in the intersection between governance, culture, and
-economics.  Would it not be a tragedy for all these experiments to be so rigidly
-siloed from one another by great chasms of incompatibility?
+현재 각 암호화폐는 고유한 문화적 이상(Cultural Ideal)을 가지고 있다. 비트코인의 경우 분명한 ‘자유주의적(libertarian)’ 성격과 약간의 ‘무정부주의(anarchist)’적인 부분이 있으나, 작업증명(PoW) 방식이 가지는 경제구조 때문에 근본적으로는 성취될 수 없다. 이더리움은, 보다 덜 정치적이며, 분산시스템, 컴퓨터과학, 계약설(contract theory: 국가권력이 인간들의 계약에 기초한다는 학설)에서의 계급투쟁적인 학문적 실험(avant garde academic excercise)이다. 도지코인(Dogecoin)은 사람들이 바보같고 유머스러운 것(the absurd)을 위해서도 단합하는 모습을 보여줌으로써 인간의 사회성을 잘 드러내준다. 스팀(Steem)은 컨텐츠의 생성과 배포(curation)에 기반하여, 보다 더 구조적으로 발현되는 인간의 사회성을 보여준다. 그 외에도 다양한 암호화폐들이 있다. 더욱 다양한 이념을 가진 코인들이 생겨날 수 있으며, 여러가지의 가상머신(VM)들도 시도될 것이다. 각각을 통해 거버넌스, 문화, 경제간 교집합에 대한 새로운 실험들이 이루어질 수 있다. 이러한 모든 실험들이 융통성없이 독립적으로만 수행된다면 너무나 안타까울 것이다.
 
-Clearly, what we need is something more general than Ethereum - a sort of meta-Ethereum; 
-something that can integrate existing codebases and the states of existing blockchains;
-something that can interface in a sane manner with the currencies issued by nation states; 
-something that formalizes the relationship between cryptocurrencies and connects them without compromising their independence;
-something with extreme flexibility that does not compromise security.
+분명히, 우리가 필요한 것은 이더리움보다는 더 포용적인(general) 모델이다. 일종의 ‘메타 이더리움(meta-Ethereum)’인 셈인데, 1) 기존 코드베이스와 블록체인들의 상태를 통합할 수 있고, 2) 정상적인 방식으로 국가별 법정화폐와 연결이 가능하며, 3) 암호화폐간의 관계를 위한 형식을 정립(formalize)하고 각각의 독립성을 해치지 않으면서 서로를 연결하며, 4) 보안성을 약화시키지 않으면서도 극단적 수준의 유연함까지 갖춘 모델이다.
 
-Enter Cosmos. Cosmos is a network and a framework for interoperability between
-blockchains.  It consists of a web of "hubs" and "zones", where each "zone" is
-effectively an independent blockchain with an arbitrary cryptocurrency design
-(be it like Bitcoin, Ethereum, ZeroCash, CryptoNote, your local banking
-institution, etc.), and each "hub" is a multi-asset cryptocurrency that
-facilitates interoperability between some set of zones.
+코스모스(Cosmos)가 바로 그것이다. 코스모스는 블록체인간 상호운용성을 가능케하는 네트워크이자 프레임워크(framework)다. 코스모스는 ‘허브(hub)’들과 ‘존(Zone)’들의 웹(web)으로 이루어져 있는데, 각 ‘존(zone)’은 비트코인(Bitcoin), 이더리움(Ethereum), 제로캐시(ZeroCash), 크립토노트(CryptoNote)와 같이 고유한 암호화폐 디자인을 가진 독립된 개개의 블록체인을 가리키며, 각 ‘허브(hub)’는 ‘다중 토큰 시스템(a multi-token system)’으로 존들(set of zones) 간의 상호운용(Interoperability)을 가능하게 한다.
 
-Hubs and zones are powered by the [Tendermint](http://tendermint.com/)
-[Proof-of-Stake (PoS) consensus
-algorithm](https://github.com/tendermint/tendermint/wiki/Byzantine-Consensus-Algorithm),
-using the [TMSP
-interface](http://tendermint.com/blog/tendermint-socket-protocol/) to host
-applications written in any programming language.  TMSP permits enormous
-flexibility in application design, and enables the application to inherit the
-security features of a Tendermint-powered blockchain.
+허브와 존은 ‘텐더민트 지분증명 합의알고리즘(Tendermint PoS consensus algorithm)’에 의해 활성화되며, TMSP 인터페이스를 사용하여 어떤 프로그래밍 언어로 쓰인 어플리케이션이든 상관없이 호스팅할 수 있다. TMSP를 통해 엄청난 자유도의 어플리케이션 설계가 가능하며, 어플리케이션이 텐더민트 기반 블록체인의 보안적 특성(security features of a Tendermint-powered blockchain)도 활용할 수 있도록 한다.
 
-Zones communicate with one another through a hub, primarily in the form of
-assymetric transfer of some set of tokens from one zone to another.
-Effectively, a hub is a blockchain with many
-[sidechains](https://blockstream.com/sidechains.pdf), but using PoS instead of
-PoW leads to a dramatic reduction in overhead without sacrificing security.  The
-trick is that each zone acts as a light client for the hub, and the hub acts as
-a light client for all its zones.  [Tendermint makes this
-efficient](https://github.com/tendermint/tendermint/wiki/Light-Client-Protocol)
-with compact light client proofs that are secure so long as the validator set is
-known, which can be achieved by ensuring the light client [synchronizes with
-validator set changes at least as often as they are permitted to
-occur](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/).
+존(zone)들은 허브(hub)를 통해 서로 소통하는데, 주로 각 존들이 서로 한 묶음의 토큰(some set of tokens)을 비대칭 전송(asymetric transfer)함으로 그렇게 한다. 사실상, 허브는 다수의 사이드체인을 가진 단일한 블록체인이라고 정의할 수 있고, PoW대신 PoS(Proof-of-Stake, 지분증명)방식을 사용하기 때문에 보안성을 유지하면서도 간접비용(채굴비용)은 획기적으로 절감한다. 방법론적으로는 각 존은 허브를 위한 라이트 클라이언트(light client) 역할을 하며, 마찬가지로 허브도 존들의 라이트 클라이언트 역할을 하는 것이다. 텐더민트는 ‘컴팩트 라이트 클라이언트 증명(compact light client proofs)’을 통해 효율적으로 이 역할을 수행하는데, 가장 최근의 정확한 발리데이터 세트(validator set)가 알려져 있는 상태에서, 발리데이터 세트 내용이 변경될 때마다, 라이트 클라이언트가 이를 동기화함으로 보안성을 확보하는 것이다.
 
-Many people have [rallied against the use of
-Proof-of-Stake](https://download.wpsoftware.net/bitcoin/pos.pdf), claiming it is
-impossible to secure.  Simultaneously, they acknowledge that it is nearly
-trivial to secure many PoS chains using a single, secure PoW chain.  It is [my
-own position](https://twitter.com/buchmanster/status/738550345597648896) that
-the correct number of PoW chains is one, and the correct number of PoS chains is
-in the thousands or millions, on par with the number of currencies, rewards
-systems, and various other token-based systems in the world.
+많은 사람들이 지분증명(PoS)을 안전하지 않은 방식이라며 반대하고 있다. 하지만 동시에, 단일한 PoW체인을 통해 복수의 PoS체인들의 보안성을 획득하는 것도 큰 의미가 없음을 인정한다. 텐더민트 개발자인 Ethan Buchman은 궁극적으로 PoW체인은 하나여야만 하고, 반면에 PoS는 각 암호화폐, 보상시스템, 또는 존재하는 다양한 토큰들 기반 시스템에 맞추어 수천, 수백만개가 되어야 한다고 생각한다.
 
-Cosmos reflects this position in that it makes no distinction between hubs - there
-is no "top" hub, and the most popular or successful hub is a matter of adoption
-by zones.  Furthermore, there is no fundamental distinction between zones and
-hubs, such that any zone with sufficient functionality can become a hub.  While
-we will release one particular hub in order to get things started (the aptly
-named Adam hub), there is nothing stopping this hub from becoming obsolete as
-other hubs, even the likes of Bitcoin or Ethereum themselves, come to compete
-with it, and potentially replace it.
+코스모스(Cosmos) 위에서 각 허브들은 동등한 지위를 가진다. 최상위 허브(top hub)와 같은 개념은 존재하지 않으며, 허브의 성공이나 명성은 얼마나 많은 존(zone)들에게 선택받느냐에 달려있다. 엄밀히 말하면, 존(zone)과 허브(hub)도 근본적인 차이는 없다. 어느 존이든 충분한 기능을 갖춘다면, 허브가 될 수 있다. 우선은 생태계를 조성하기 위해 텐더민트에서 자체적으로 허브(Adam hub, 아담허브)를 런칭할 것이지만, 언제든지 다른 허브가 등장할 수 있으며, 비트코인이나 이더리움 같은 허브이든, 아니면 그 자체이든 얼마든지 아담과 경쟁하고 아담을 대체할 수 있다.
 
-Cosmos thus introduces a new kind of market dynamic that formalizes the power
-struggle between the various cryptocurrency offerings, demolishing the barriers
-to interoperability and enabling competition between hubs to contribute to the
-economic security of each hub itself - validators who misbehave will be
-abandoned for better behaving ones.  The result is a heterogeneous network,
-adapting for each community and each locale according to its needs, and yet
-retaining a backbone of interoperability that keeps barriers to entry low while
-holding stewards of the system accountable and quality of service high.
+코스모스(Cosmos)은 다양한 암호화폐들 간의 장벽을 해소하고 새로운 역학관계를 만들어낼 것이다. 또한 허브들 간의 경쟁을 촉진하고 경제적인 안정을 도모하도록 유도한다. 부정행위를 하고자 하는 발리데이터(Validator, 유효성 검사자: 비트코인의 채굴자과 유사한 역할-합의구조 유지)들은 시스템 안정성에 기여하는 다른 발리데이터에 의해 대체될 것이다. 결과적으로는, 다양한 네트워크들이 코스모스 위에서 공존할 것이고, 각 필요에 따른 커뮤니티와 필요에 따른 공간이 개별적으로 존재하면서도 동시에 근간이 되는 시스템에서 이들 간의 상호운용(interoperability)이 가능하도록 만들 것이다. 이러한 특성을 통해 접근성을 높이면서 시스템 안정성과 서비스의 질도 함께 높이게 될 것이다.
 
-Whether as testing grounds for new cryptocurrency designs, or an upgrade to
-existing ones, as a means for decentralized exchange, or a platform for scalable
-smart contracts, Cosmos's potential is that of every existing cryptocurrency and
-more in synergy.  The only question is, what will you build on Cosmos?
+새로운 암호화폐를 위한 ‘시험장’으로써든, 기존 암호화폐를 ‘개선’시키기 위해서든 또는 ‘탈중앙화된 거래소’나 확장성이 보장된 ‘스마트컨트랙트를 위한 플랫폼’으로써 사용하든 ‘코스모스(Cosmos)’의 잠재력은 곧, 존재하는 모든 암호화폐들의 잠재력이며, 시너지를 통해 더 큰 잠재력을 발휘할 수 있다. 정말 필요한 질문은, ‘과연 당신은 여기에 무엇을 만들 것인가’이다.
+
